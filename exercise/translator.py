@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import *
 from googletrans import Translator
 
-class Translator(QWidget):
+class Ex_Translator(QWidget):
 
     def __init__(self):
         super().__init__()
@@ -37,5 +37,5 @@ class Translator(QWidget):
 
 if __name__ == '__main__':
     app=QApplication(sys.argv)
-    ex = Translator()
+    ex = Ex_Translator()
     sys.exit(app.exec_())
